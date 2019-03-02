@@ -1,0 +1,19 @@
+{
+    "manifest_version": 2,
+    "name": "DogTab",
+    "description": "Dogs and dog facts in every tab!",
+    "version": "1",
+    "author": "Garret Patten",
+    "browser_action": {
+      "default_icon": "tab-icon.png",
+      "default_title": "Dog Tabs",
+      "default-popup": "popup.html"
+    },
+   "chrome_url_overrides" : {
+     "newtab": "newtab.html"
+   },
+    "permissions": [
+      "activeTab",
+      "https://dog.ceo/api/*"
+    ]
+   }

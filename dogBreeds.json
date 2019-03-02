@@ -1,0 +1,694 @@
+{
+    "afghanHound": {
+        "name":"Afghan Hound",
+        "type": "Longhaird Sighthound", 
+        "region":"Afghanistan"
+    },
+
+    "anatolianShepherdDog" : {
+        "Anatolian Shepherd Dog" : "",
+        "type" : "Mountain Type Mastiff",
+        "region" : "Anatolia"
+
+    },
+
+    "dogoArgentino" : {
+        "name" : "Dogo Argentino",
+        "type" : "Mastiff",
+        "region" : "Argentina'"
+
+    },
+
+    "australianCattleDog" : {
+        "name" : "Australian Cattle Dog",
+        "type" : "Cattle Dog",
+        "region" : "Australia"
+
+    },
+
+    "australianKelpie" : {
+        "name" : "Australian Kelpie",
+        "type" : "Sheepdog",
+        "region" : "Australia"
+
+    },
+
+    "australianSilkyTerrier" : {
+        "name" : "Australian Silky Terrier'",
+        "type" : "Toy Terrier",
+        "region" : "Australia"
+
+    },
+
+    "australianStumpyTailCattleDog" : {
+        "name" : "Australian Stumpy Tail Cattle Dog",
+        "type" : "Cattle Dog",
+        "region" : "Australia"
+
+    },
+
+    "australianTerrier" : {
+        "name" : "Australian Terrier",
+        "type" : "Small Sized Terrier",
+        "region" : "Australia"
+
+    },
+
+    "jackRussellTerrier" : {
+        "name" : "Jack Russell Terrier'",
+        "type" : "Small Sized Terrier",
+        "region" : "Australia"
+
+    },
+
+    "alpineDachsbracke" : {
+        "name" : "Alpine Dachsbracke",
+        "type" : "Leah Hound",
+        "region" : "Austria"
+
+    },
+
+    "austrianBlackAndTanHound" : {
+        "name" : "Austrian Black and Tan Hound",
+        "type" : "Medium Scenthound",
+        "region" : "Austria"
+
+    },
+
+    "austrianPinscher" : {
+        "name" : "Austrian Pinscher",
+        "type" : "Pinscher",
+        "region" : "Austria"
+
+    },
+
+    "styrianCoarseHairedHound" : {
+        "name" : "Styrian Coarse-Haired Hound",
+        "type" : "Medium Scenthound",
+        "region" : "Austria"
+
+    },
+
+    "tyroleanHound" : {
+        "name" : "Tyrolean Hound",
+        "type" : "Medium Scenthound",
+        "region" : "Austria"
+
+    },
+
+    "belgianSheepdog" : {
+        "name" : "Belgian Sheepdog",
+        "type" : "Sheepdog",
+        "region" : "Belgium"
+
+    },
+
+    "groenendael" : {
+        "name" : "Groenendael",
+        "type" : "Sheepdog",
+        "region" : "Belgium"
+
+    },
+
+    "laekenois" : {
+        "name" : "Laekenois",
+        "type" : "Sheepdog",
+        "region" : "Belgium"
+
+    },
+
+    "malinois" : {
+        "name" : "Laekenois",
+        "type" : "Sheepdog",
+        "region" : "Belgium"
+
+    },
+
+    "tervueren" : {
+        "name" : "Tervueren",
+        "type" : "Sheepdog",
+        "region" : "Belgium"
+
+    },
+
+    "bloodhound" : {
+        "name" : "bloodhound",
+        "type" : "Large Scenthound",
+        "region" : "Belgium"
+
+    },
+
+    "griffonBelge" : {
+        "name" : "Griffon Belge",
+        "type" : "Companion/Toy Dog",
+        "region" : "Belgium"
+
+    },
+
+    "griffonBruxellois" : {
+        "name" : "Griffon Bruxellois",
+        "type" : "Companion/Toy Dog",
+        "region" : "Belgium"
+
+    },
+
+    "petitBrabancon" : {
+        "name" : "Petit Brabancon",
+        "type" : "Sheepdog",
+        "region" : "Belgium"
+
+    },
+
+    "schipperke" : {
+        "name" : "Schipperke",
+        "type" : "Sheepdog",
+        "region" : "Belgium"
+
+    },
+
+    "bosnianCoarseHairedHound" : {
+        "name" : "Bosnian Coarse-Haired Hound",
+        "type" : "Medium Scenthound",
+        "region" : "Bosnia"
+
+    },
+    
+    "filaBrasileiro" : {
+        "name" : "Fila Brasileiro",
+        "type" : "Mastiff",
+        "region" : "Brazil"
+
+    },
+
+    "newfoundland" : {
+        "name" : "Newfoundland",
+        "type" : "Mountain Type Mastiff",
+        "region" : "Canada"
+
+    },
+
+    "novaScotiaDuckTollingRetriever" : {
+        "name" : "Nova Scotia Duck Tolling Retriever",
+        "type" : "Retriever",
+        "region" : "Canada"
+
+    },
+
+    "basenji" : {
+        "name" : "Basenji",
+        "type" : "Primitive Type",
+        "region" : "Central Africa"
+
+    },
+
+    "maltese" : {
+        "name" : "Maltese",
+        "type" : "Companion/Toy Dog",
+        "region" : "Central Mediterranean"
+
+    },
+
+    "chineseCrestedDog" : {
+        "name" : "Chinese Crested Dog",
+        "type" : "Multiple Varieties",
+        "region" : "China"
+
+    },
+
+    "hairless" : {
+        "name" : "Hairless",
+        "type" : "Companion/Toy Dog",
+        "region" : "China"
+
+    },
+
+    "powderpuff" : {
+        "name" : "Powderpuff",
+        "type" : "Companion/Toy Dog",
+        "region" : "China"
+
+    },
+
+    "chowChow" : {
+        "name" : "Chow Chow",
+        "type" : "Asian Spitz",
+        "region" : "China"
+
+    },
+
+    "pekingese" : {
+        "name" : "Pekingese",
+        "type" : "Companion/Toy Dog",
+        "region" : "China"
+
+    },
+
+    "sharPei" : {
+        "name" : "Shar Pei",
+        "type" : "Mastiff",
+        "region" : "China"
+
+    },
+
+    "croationSheepdog" : {
+        "name" : "Croation Sheepdog",
+        "type" : "Sheepdog",
+        "region" : "Croatia"
+
+    },
+
+    "dalmatian" : {
+        "name" : "Dalmatian",
+        "type" : "Scenthound",
+        "region" : "Croatia"
+
+    },
+
+    "istrianCoarseHairedHound" : {
+        "name" : "Istrian Coarse-Haired Hound",
+        "type" : "Medium Scenthound",
+        "region" : "Croatia"
+
+    },
+
+    "posavazHound" : {
+        "name" : "Posavaz Hound",
+        "type" : "Medium Scenthound",
+        "region" : "Croatia"
+
+    },
+
+    "ceskyFousek" : {
+        "name" : "Cesky Fousek",
+        "type" : "Griffin-Type Pointer",
+        "region" : "Czechoslovakia"
+
+    },
+
+    "ceskyTerrier" : {
+        "name" : "Cesky Terrier",
+        "type" : "Small Sized Terrier",
+        "region" : "Czechoslovakia"
+
+    },
+
+    "czechoslovakianWolfdog" : {
+        "name" : "Czechoslovakian Wolfdog",
+        "type" : "Sheepdog",
+        "region" : "Czechoslovakia"
+
+    },
+
+    "broholmer" : {
+        "name" : "Broholmer",
+        "type" : "Mastiff",
+        "region" : "Denmark"
+
+    },
+    
+    "oldDanishPointer" : {
+        "name" : "Old Danish Pointer",
+        "type" : "",
+        "region" : "Denmark"
+
+    },
+
+    "finnishHound" : {
+        "name" : "Finnish Hound",
+        "type" : "Medium Scenthound",
+        "region" : "Finland"
+    },
+
+    "finnishLapphund" : {
+        "name" : "Finnish Lapphund", 
+        "type" : "Nordic Watchdog/Herding Dog", 
+        "region" : "Finland"
+    },
+
+    "finnishSpitz" : {
+        "name" : "Finnish Spitz", 
+        "type" : "Nordic Hunting Dog", 
+        "region" : "Finland"
+    },
+
+    "krelianBearDog" : {
+        "name" : "Karelian Bear Dog", 
+        "type" : "Nordic Hunting Dog", 
+        "region" : "Finland"
+    },
+
+    "lapponianHerder" : {
+        "name" : "Lapponian Herder", 
+        "type" : "Nordic Watchdog/Herding Dog", 
+        "region" : "Finland"
+    },
+
+    "angloFrancaisDePetiteVenerie" : {
+        "name" : "Anglo-Français de Petite Vénerie", 
+        "type" : "Medium Scenthound", 
+        "region" : "France"
+    },
+
+    "ariegeois" : {
+        "name" : "Ariégeois", 
+        "type" : "Medium Scenthound", 
+        "region" : "France"
+    },
+
+    "barbet" : {
+        "name" : "Barbet", 
+        "type" : "Water Dog", 
+        "region" : "France"
+    },
+
+    "bassetArtesienNormand" : {
+        "name" : "Basset Artésien Normand", 
+        "type" : "Small Scenthound", 
+        "region" : "France"
+    },
+
+    "bassetBleuDeGascogne" : {
+        "name" : "Basset Bleu de Gascogne", 
+        "type" : "Small Scenthound", 
+        "region" : "France"
+    },
+
+    "bassetFauveDeBretagne" : {
+        "name" : "Basset Fauve de Bretagne", 
+        "type" : "Small Scenthound", 
+        "region" : "France"
+    },
+
+    "beagleHarrier" : {
+        "name" : "Beagle-Harrier", 
+        "type" : "Medium Scenthound", 
+        "region" : "France"
+    },
+
+    "beauceron" : {
+        "name" : "Beauceron", 
+        "type" : "Sheepdog", 
+        "region" : "France"
+    },
+
+    "bergerPicard" : {
+        "name" : "Berger Picard", 
+        "type" : "Sheepdog", 
+        "region" : "France"
+    },
+
+    "bichonFrise" : {
+        "name" : "Bichon Frise", 
+        "type" : "Companion/Toy Dog", 
+        "region" : "France"
+    },
+
+    "billy" : {
+        "name" : "Billy", 
+        "type" : "Large Scenthound", 
+        "region" : "France"
+    },
+
+
+    "bouvierDesArdennes" : {
+        "name" : "Bouvier des Ardennes", 
+        "type" : "Cattle Dog", 
+        "region" : "France"
+    },
+
+
+    "bouvierDesFlandres" : {
+        "name" : "Bouvier des Flandres", 
+        "type" : "Cattle Dog", 
+        "region" : "France"
+    },
+
+    "braqueDauvergne" : {
+        "name" : "Braque d'Auvergne", 
+        "type" : "Continental Pointing Dog", 
+        "region" : "France"
+    },
+
+
+    "braqueDeLareige" : {
+        "name" : "Braque de l'Ariège", 
+        "type" : "Continental Pointing Dog", 
+        "region" : "France"
+    },
+
+    "braqueDuBourbonnais" : {
+        "name" : "Braque du Bourbonnais", 
+        "type" : "Continental Pointing Dog", 
+        "region" : "France"
+    },
+    
+    "braqueFrancais_gascogne" : {
+        "name" : "Braque Français, type Gascogne", 
+        "type" : "Continental Pointing Dog", 
+        "region" : "France"
+    },
+    
+    "braqueFrancais_pyrenees" : {
+        "name" : "Braque Français, type Pyrénées", 
+        "type" : "Continental Pointing Dog", 
+        "region" : "France"
+    },
+    
+    "braqueSaintGermain" : {
+        "name" : "Braque Saint-Germain", 
+        "type" : "Continental Pointing Dog", 
+        "region" : "France"
+    },
+    
+    "briard" : {
+        "name" : "Briard", 
+        "type" : "Sheepdog", 
+        "region" : "France"
+    },
+
+    "briquetGriffonVendeen" : {
+        "name" : "Briquet Griffon Vendéen", 
+        "type" : "Medium Scenthound", 
+        "region" : "France"
+    },
+    
+    "brittanySpaniel" : {
+        "name" : "Brittany Spaniel", 
+        "type" : "Spaniel-Type Pointer", 
+        "region" : "France"
+    },
+
+
+    "chienDartois" : {
+        "name" : "Chien d'Artois", 
+        "type" : "Medium Scenthound", 
+        "region" : "France"
+    },
+
+
+    "espagneulBlueDePicardie" : {
+        "name" : "Epagneul Bleu de Picardie", 
+        "type" : "Spaniel-Type Pointer", 
+        "region" : "France"
+    },
+    
+    "espagneulDePicardie" : {
+        "name" : "Epagneul de Picardie", 
+        "type" : "Spaniel-Type Pointer", 
+        "region" : "France"
+    },
+
+    "epagneulFrançais" : {
+        "name" : "Epagneul Français", 
+        "type" : "Spaniel-Type Pointer", 
+        "region" : "France"
+    },
+
+    "espagneulPontAudemer" : {
+        "name" : "Epagneul Pont-Audemer", 
+        "type" : "Spaniel-Type Pointer", 
+        "region" : "France"
+    },
+    
+    "francaisBlancEtNoir" : {
+        "name" : "Français Blanc et Noir", 
+        "type" : "Large Scenthound", 
+        "region" : "France"
+    },
+    
+    "francaisBlancEtOrange" : {
+        "name" : "Français Blanc et Orange", 
+        "type" : "Large Scenthound", 
+        "region" : "France"
+    },
+    
+    "francaisTricolore" : {
+        "name" : "Français Tricolore", 
+        "type" : "Large Scenthound", 
+        "region" : "France"
+    },
+    
+    "frenchBulldog" : {
+        "name" : "French Bulldog", 
+        "type" : "Companion/Toy Dog", 
+        "region" : "France"
+    },
+    
+    "" : {
+        "name" : "Gascon Saintongeois", 
+        "type" : "", 
+        "region" : ""
+    },
+    
+    "" : {
+        "name" : "Grand Anglo-Français Blanc et Noir", 
+        "type" : "", 
+        "region" : ""
+    },
+    
+    "" : {
+        "name" : "Grand Anglo-Français Blanc et Orange", 
+        "type" : "", 
+        "region" : ""
+    },
+    
+    "" : {
+        "name" : "Grand Anglo-Français Tricolore ", 
+        "type" : "", 
+        "region" : ""
+    },
+    
+    "" : {
+        "name" : "Grand Basset Griffon Vendéen", 
+        "type" : "", 
+        "region" : ""
+    },
+    
+    "" : {
+        "name" : "Grand Bleu de Gascogne", 
+        "type" : "", 
+        "region" : ""
+    },
+    
+    "" : {
+        "name" : "Grand Gascon Saintongeois", 
+        "type" : "", 
+        "region" : ""
+    },
+    
+    "" : {
+        "name" : "Grand Griffon Vendéen", 
+        "type" : "", 
+        "region" : ""
+    },
+    
+    "" : {
+        "name" : "Griffon Bleu de Gascogne", 
+        "type" : "", 
+        "region" : ""
+    },
+    
+    "" : {
+        "name" : "Griffon Fauve de Bretagne", 
+        "type" : "", 
+        "region" : ""
+    },
+    
+    "" : {
+        "name" : "Griffon Nivernais", 
+        "type" : "", 
+        "region" : ""
+    },
+    
+    "" : {
+        "name" : "Lowchen", 
+        "type" : "", 
+        "region" : ""
+    },
+    
+    "" : {
+        "name" : "Papillion", 
+        "type" : "", 
+        "region" : ""
+    },
+    
+    "" : {
+        "name" : "Petit Basset Griffon Vendéen", 
+        "type" : "", 
+        "region" : ""
+    },
+    
+    "" : {
+        "name" : "Petit Bleu de Gascogne", 
+        "type" : "", 
+        "region" : ""
+    },
+    
+    "" : {
+        "name" : "Phalene", 
+        "type" : "", 
+        "region" : ""
+    },
+    
+    "" : {
+        "name" : "Poitevin", 
+        "type" : "", 
+        "region" : ""
+    },
+    
+    "" : {
+        "name" : "Poodle", 
+        "type" : "", 
+        "region" : ""
+    },
+    
+    "" : {
+        "name" : "Standard", 
+        "type" : "", 
+        "region" : ""
+    },
+    
+    "" : {
+        "name" : "Medium Poodle", 
+        "type" : "", 
+        "region" : ""
+    },
+
+    "" : {
+        "name" : "Miniature Poodle", 
+        "type" : "", 
+        "region" : ""
+    },
+    
+    "" : {
+        "name" : "Toy Poodle", 
+        "type" : "", 
+        "region" : ""
+    },
+    
+    "" : {
+        "name" : "Porcelaine", 
+        "type" : "", 
+        "region" : ""
+    },
+    
+    "" : {
+        "name" : "Pyrenean Mountain Dog", 
+        "type" : "", 
+        "region" : ""
+    },
+    
+    "" : {
+        "name" : "Pyrenean Shepherd", 
+        "type" : "", 
+        "region" : ""
+    },
+    
+    "" : {
+        "name" : "Wirehaired Pointing Griffon", 
+        "type" : "", 
+        "region" : ""
+    }
+    
+
+}
