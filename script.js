@@ -1,7 +1,4 @@
-/*
-In dogBreeds.json, left off before Croatia
-source: https://www.psychologytoday.com/us/blog/canine-corner/201305/how-many-breeds-dogs-are-there-in-the-world
-*/
+// dogBreeds.json source: https://www.psychologytoday.com/us/blog/canine-corner/201305/how-many-breeds-dogs-are-there-in-the-world
 
 var data = {
     "description": "A list of dog breeds",
@@ -12,7 +9,7 @@ var data = {
         "Aidi",
         "Airedale Terrier",
         "Akbash Dog",
-        "Akita",
+        "Akita", //yes
         "Alano Español",
         "Alaskan Klee Kai",
         "Alaskan Malamute",
@@ -49,7 +46,7 @@ var data = {
         "Basset Fauve de Bretagne",
         "Basset Hound",
         "Bavarian Mountain Hound",
-        "Beagle",
+        "Beagle", //yes
         "Beagle-Harrier",
         "Bearded Collie",
         "Beauceron",
@@ -92,7 +89,6 @@ var data = {
         "Briquet Griffon Vendéen",
         "Brittany",
         "Broholmer",
-        "Bruno Jura Hound",
         "Bucovina Shepherd Dog",
         "Bull and Terrier",
         "Bull Terrier (Miniature)",
@@ -196,10 +192,8 @@ var data = {
         "Giant Schnauzer",
         "Glen of Imaal Terrier",
         "Golden Retriever",
-        "Gordon Setter",
         "Gran Mastín de Borínquen",
         "Grand Anglo-Français Blanc et Noir",
-        "Grand Anglo-Français Blanc et Orange",
         "Grand Anglo-Français Tricolore",
         "Grand Basset Griffon Vendéen",
         "Grand Bleu de Gascogne",
@@ -210,7 +204,6 @@ var data = {
         "Greek Harehound",
         "Greenland Dog",
         "Greyhound",
-        "Griffon Bleu de Gascogne",
         "Griffon Bruxellois",
         "Griffon Fauve de Bretagne",
         "Griffon Nivernais",
@@ -463,18 +456,32 @@ var data = {
       ]
   };
 
+// dog.api
 var urlStart = 'https://dog.ceo/api/breed/'
-var urlEnd = '/images/random/3';
+var urlEnd = '/images/random/9';
 
-// Beagle
+/*
+ * Randomnly select a breed from the list
+ */
+ var getRandomDogBreed = function() {
+    var dogBreed = data.dogs[Math.floor(Math.random() * data.dogs.length)];
+    console.log('random dog breed: ' + dogBreed);
+    return dogBreed;
+ }
+
+// Beagle - for testing
 var dogBreed = data.dogs[42];
+//var dogBreed = getRandomDogBreed();
+document.getElementById('dogBreed').innerHTML = 'This tab\'s breed is the ' + dogBreed + '!';
 
 var apiURL = urlStart + dogBreed + urlEnd;
 
+// Get request for 3 images of dogBreed selected
 var xhr = new XMLHttpRequest();
 xhr.open("GET", apiURL, false);
 xhr.send();
 
+// Parse response to Get request
 var data = xhr.responseText;
 var jsonResponse = JSON.parse(data);
 console.log(data);
@@ -486,7 +493,12 @@ var imageSources = (jsonResponse.message + '').split(',');
 
 console.log('first image source: ' + imageSources[0]);
 
-document.getElementById('image1');
-document.getElementById('image2');
-document.getElementById('image3');
+// Set image container sources with response values
+// TODO: Add guard for responses with less than 9 items
+var id;
+for (let i = 0; i < 10; i++) {
+    id = 'image' + i;
+    console.log(id);
+    document.getElementById(id).src=imageSources[i];
+}
 
